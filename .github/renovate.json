@@ -1,0 +1,40 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "description": "Generated packages and token views are updated only by their producer.",
+      "matchFileNames": [
+        "packages/**",
+        "tokens/derived/**",
+        "tokens/nddev.resolver.json",
+        "tokens/tokens.json",
+        "generated/outputs.json"
+      ],
+      "enabled": false
+    }
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "Update the stable Rust toolchain at its source emitter.",
+      "managerFilePatterns": ["/^src\\/emit\\/rust\\.ts$/"],
+      "matchStrings": [
+        "channel = \"(?<currentValue>[0-9]+\\.[0-9]+\\.[0-9]+)\""
+      ],
+      "datasourceTemplate": "rust-version",
+      "depNameTemplate": "rust",
+      "versioningTemplate": "semver"
+    }
+  ],
+  "postUpgradeTasks": {
+    "commands": ["just install", "just generate"],
+    "executionMode": "branch",
+    "fileFilters": [
+      "packages/**",
+      "tokens/derived/**",
+      "tokens/nddev.resolver.json",
+      "tokens/tokens.json",
+      "generated/outputs.json"
+    ]
+  }
+}
