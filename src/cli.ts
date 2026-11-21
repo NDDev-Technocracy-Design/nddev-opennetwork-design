@@ -67,6 +67,7 @@ function sourceInputs(): InputHashes {
     ".gitattributes",
     "package.json",
     "bun.lock",
+    "rust-toolchain.toml",
   ])
     walk(name);
   for (const name of readdirSync(TOKENS).sort())

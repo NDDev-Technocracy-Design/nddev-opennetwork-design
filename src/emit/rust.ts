@@ -1,6 +1,7 @@
 // A Rust crate with no dependencies, for native desktop interfaces (egui, iced, Slint), image
 // rendering and tools: every set is a static, resolved without allocation. Dimensions are logical
 // pixels.
+import { readFileSync } from "node:fs";
 import packageInfo from "../../package.json" with { type: "json" };
 import {
   fixed,
@@ -522,10 +523,11 @@ fonts = []
   );
   files.set(
     "rust-toolchain.toml",
-    `${HEADER.replace("//", "#")}[toolchain]
-channel = "1.99.1"
-components = ["clippy", "rustfmt"]
-`,
+    HEADER.replace("//", "#") +
+      readFileSync(
+        new URL("../../rust-toolchain.toml", import.meta.url),
+        "utf8",
+      ),
   );
   return files;
 }

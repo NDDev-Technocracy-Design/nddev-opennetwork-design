@@ -35,10 +35,8 @@ jobs:
           echo "$RUNNER_TEMP/flutter/bin" >> "$GITHUB_PATH"
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
-          node-version: "24.22.1"
+          node-version-file: package.json
       - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
-        with:
-          bun-version: "1.4.3"
       - name: Install locked generator dependencies
         run: just install
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
@@ -94,8 +92,6 @@ jobs:
         if: matrix.target == 'rust'
         uses: actions-rust-lang/setup-rust-toolchain@a188e68d0fd2bd36ad51dccb2b07ba6e75105f30 # v2.0.1
         with:
-          toolchain: "1.99.1"
-          components: rustfmt, clippy
           cache: false
       - name: Compile and test the source package
         if: matrix.target != 'apple'
