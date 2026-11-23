@@ -128,7 +128,7 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-      - uses: NDDev-Technocracy-OpenNetwork/nddev-ci/actions/hosted-sdk@f462390d92c31b0501c2af35e898603e49ce5baf # v0.6.101
+      - uses: NDDev-Technocracy-OpenNetwork/nddev-ci/actions/hosted-sdk@da7d6fd99e4fe8ed90e59a970043bde90486190d # v0.6.103
         with:
           tools: zizmor@1.32.0
       - name: Install actionlint 1.7.12 and gitleaks 8.30.1, checked against their digests
