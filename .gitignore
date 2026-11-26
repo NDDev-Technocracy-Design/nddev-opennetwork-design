@@ -4,6 +4,8 @@ build/
 .flutter-plugins-dependencies
 .DS_Store
 .nddev-reports/
+# The local index of the code graph.
+.graf/
 
 node_modules
 .build/
