@@ -5,11 +5,11 @@
     "derived": {
       ".gitattributes": "1d45893d9783860cd8a4860d28c72900b94a8922c973905341cc0439f5f77053",
       "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "NOTICE": "b6b34e96d0f0c918331d2f04cae70f49863a04f24a0fc0e90c8cc2742c50e78c",
+      "NOTICE": "be2164ec380ea7c78ef371341afcd2e63c396b40280446727202f776663402c3",
       "THIRD_PARTY_NOTICES.md": "4374e24803c03aa3e54718e68d67366f6b65c37e6f4add506646a6e9761e831f",
       "adapters/flutter/brand.dart": "47b799fd4293013c1410dc23e32f359d8618fa409395d9ab60c516c77cf6d983",
       "adapters/flutter/licenses.dart": "bc8dd5562928078ebf6fd045208b257b7e75795d62c65d2e20bb9cfbeed9f888",
-      "adapters/flutter/pubspec.yaml": "fdb5a9a9be56b14794b7baee99f2e7546cfbba303a0845d2d16152f94c39e442",
+      "adapters/flutter/pubspec.yaml": "f3be06ac311be370b39de46ba53936a7eeae888cd0d9aad3e7f96f27a90d6a02",
       "adapters/flutter/theme.dart": "6e4057105ed9f7f7e68b0171b9358c39493cce6afead4c05dc8e48fd7d07f079",
       "brand/nddev.svg": "3997b08aa3c47d0d5827484db657c8e18a53dc0a00e1a875cc57eb931c6f4877",
       "bun.lock": "5f02ca2795afc8737c9bdb4a9deba1ac699f8c61ca56b64dc165ff2596b82529",
@@ -179,11 +179,11 @@
     "packages": {
       ".gitattributes": "1d45893d9783860cd8a4860d28c72900b94a8922c973905341cc0439f5f77053",
       "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "NOTICE": "b6b34e96d0f0c918331d2f04cae70f49863a04f24a0fc0e90c8cc2742c50e78c",
+      "NOTICE": "be2164ec380ea7c78ef371341afcd2e63c396b40280446727202f776663402c3",
       "THIRD_PARTY_NOTICES.md": "4374e24803c03aa3e54718e68d67366f6b65c37e6f4add506646a6e9761e831f",
       "adapters/flutter/brand.dart": "47b799fd4293013c1410dc23e32f359d8618fa409395d9ab60c516c77cf6d983",
       "adapters/flutter/licenses.dart": "bc8dd5562928078ebf6fd045208b257b7e75795d62c65d2e20bb9cfbeed9f888",
-      "adapters/flutter/pubspec.yaml": "fdb5a9a9be56b14794b7baee99f2e7546cfbba303a0845d2d16152f94c39e442",
+      "adapters/flutter/pubspec.yaml": "f3be06ac311be370b39de46ba53936a7eeae888cd0d9aad3e7f96f27a90d6a02",
       "adapters/flutter/theme.dart": "6e4057105ed9f7f7e68b0171b9358c39493cce6afead4c05dc8e48fd7d07f079",
       "brand/nddev.svg": "3997b08aa3c47d0d5827484db657c8e18a53dc0a00e1a875cc57eb931c6f4877",
       "bun.lock": "5f02ca2795afc8737c9bdb4a9deba1ac699f8c61ca56b64dc165ff2596b82529",
@@ -365,7 +365,7 @@
       "executable": false
     },
     "packages/apple/NOTICE": {
-      "sha256": "b6b34e96d0f0c918331d2f04cae70f49863a04f24a0fc0e90c8cc2742c50e78c",
+      "sha256": "be2164ec380ea7c78ef371341afcd2e63c396b40280446727202f776663402c3",
       "scope": "packages",
       "executable": false
     },
@@ -535,7 +535,7 @@
       "executable": false
     },
     "packages/brand/NOTICE": {
-      "sha256": "b6b34e96d0f0c918331d2f04cae70f49863a04f24a0fc0e90c8cc2742c50e78c",
+      "sha256": "be2164ec380ea7c78ef371341afcd2e63c396b40280446727202f776663402c3",
       "scope": "packages",
       "executable": false
     },
@@ -820,7 +820,7 @@
       "executable": false
     },
     "packages/figma/NOTICE": {
-      "sha256": "b6b34e96d0f0c918331d2f04cae70f49863a04f24a0fc0e90c8cc2742c50e78c",
+      "sha256": "be2164ec380ea7c78ef371341afcd2e63c396b40280446727202f776663402c3",
       "scope": "packages",
       "executable": false
     },
@@ -920,7 +920,7 @@
       "executable": false
     },
     "packages/flutter/NOTICE": {
-      "sha256": "b6b34e96d0f0c918331d2f04cae70f49863a04f24a0fc0e90c8cc2742c50e78c",
+      "sha256": "be2164ec380ea7c78ef371341afcd2e63c396b40280446727202f776663402c3",
       "scope": "packages",
       "executable": false
     },
@@ -1090,7 +1090,7 @@
       "executable": false
     },
     "packages/flutter/pubspec.yaml": {
-      "sha256": "fdb5a9a9be56b14794b7baee99f2e7546cfbba303a0845d2d16152f94c39e442",
+      "sha256": "f3be06ac311be370b39de46ba53936a7eeae888cd0d9aad3e7f96f27a90d6a02",
       "scope": "packages",
       "executable": false
     },
@@ -1110,7 +1110,7 @@
       "executable": false
     },
     "packages/fonts/NOTICE": {
-      "sha256": "b6b34e96d0f0c918331d2f04cae70f49863a04f24a0fc0e90c8cc2742c50e78c",
+      "sha256": "be2164ec380ea7c78ef371341afcd2e63c396b40280446727202f776663402c3",
       "scope": "packages",
       "executable": false
     },
@@ -1245,7 +1245,7 @@
       "executable": false
     },
     "packages/icons/NOTICE": {
-      "sha256": "b6b34e96d0f0c918331d2f04cae70f49863a04f24a0fc0e90c8cc2742c50e78c",
+      "sha256": "be2164ec380ea7c78ef371341afcd2e63c396b40280446727202f776663402c3",
       "scope": "packages",
       "executable": false
     },
@@ -1420,7 +1420,7 @@
       "executable": false
     },
     "packages/kotlin/NOTICE": {
-      "sha256": "b6b34e96d0f0c918331d2f04cae70f49863a04f24a0fc0e90c8cc2742c50e78c",
+      "sha256": "be2164ec380ea7c78ef371341afcd2e63c396b40280446727202f776663402c3",
       "scope": "packages",
       "executable": false
     },
@@ -1590,7 +1590,7 @@
       "executable": false
     },
     "packages/rust/NOTICE": {
-      "sha256": "b6b34e96d0f0c918331d2f04cae70f49863a04f24a0fc0e90c8cc2742c50e78c",
+      "sha256": "be2164ec380ea7c78ef371341afcd2e63c396b40280446727202f776663402c3",
       "scope": "packages",
       "executable": false
     },
@@ -1740,7 +1740,7 @@
       "executable": false
     },
     "packages/web/NOTICE": {
-      "sha256": "b6b34e96d0f0c918331d2f04cae70f49863a04f24a0fc0e90c8cc2742c50e78c",
+      "sha256": "be2164ec380ea7c78ef371341afcd2e63c396b40280446727202f776663402c3",
       "scope": "packages",
       "executable": false
     },
