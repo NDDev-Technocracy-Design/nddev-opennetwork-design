@@ -145,7 +145,7 @@ def source_identity():
         if content != published:
             raise ValueError('Launcher generation requires committed canonical inputs')
         hashes[name] = digest(content)
-    return {'repository': 'NDDev-Technocracy-OpenNetwork/nddev-opennetwork-design-system',
+    return {'repository': 'NDDev-Technocracy-Design/nddev-opennetwork-design',
             'commit': commit, 'inputs_sha256': hashes, 'renderer': CANONICAL_RENDERER}
 
 
